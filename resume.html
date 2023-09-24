@@ -1,76 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="resume.css">
     <script src="https://kit.fontawesome.com/e2e72319aa.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
+
 <body>
-    <header id="main-header">
+    <header id="body-header">
         <nav>
-            <ul class="list text-center">
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Skills</a> 
-                </li>
-                <li>
-                    <a href="">Experience</a>
-                </li>
-                <li>
-                    <a href="">Portfolio</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>    
-                </li>
+            <ul class="horizontal-list text-center">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <h1>Ravinder</h1>
-        <ul class="list text-center">
-            <li>
-                <i class="fa-brands fa-linkedin"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-stack-overflow"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-google-plus-g"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-facebook"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-quora"></i>
-            </li>
-        </ul>
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Ravinder</h1>
+            </div>
+        </div>
+        <div>
+            <ul class="horizontal-list text-center social-icons">
+                <li>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-stack-overflow"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-quora"></i></a>
+                </li>
+            </ul>
+        </div>
     </header>
-    <div class="about">
-        <div class="photo">
-            <img id="image1" src="asset_0000000000000020_1549743985_macbook_mouse.jpg" alt="">
-        </div>
-        <div class="photo img" id="image2">
-            <img src="photo_ravi.jpg" alt="">
-        </div>
-       <div class="para"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam nisi, delectus blanditiis sapiente ducimus ullam animi tempora neque praesentium enim nemo molestias, quae voluptas molestiae consequatur explicabo perferendis facilis.</p>
-        </div>
-    </div>   
-    <main class="main">
-        <div class="skills">
-            <!-- <progress min="0" max="100" value="50"></progress> -->
-            <meter min="0" max="100" value="50"></meter>
-            <meter min="0" max="100" value="50"></meter>
-            <meter min="0" max="100" value="50"></meter>
-            <meter min="0" max="100" value="50"></meter>
-            <!-- <meter min="0" max="100" value="50"></meter> -->
+    <main>
+        <section id="about">
+            <div id="myimage">
+                <img src="./images/photo_ravi.jpg" alt="">
+            </div>
+            <p id="about-para">Welcome to my portfolio website! I'm Ravinder, and I'm thrilled to have you here. Let me
+                take a moment to introduce myself and give you a glimpse into my world. As a recent Bachelor of Computer
+                Application graduate with a passion for web development, I am eager to contribute my skills and
+                knowledge to a dynamic team as a frontend developer. I am excited to apply my expertise in HTML, CSS,
+                JavaScript and React to create engaging and user-friendly websites.</p>
+        </section>
+        <section id="education">
+            <h1 class="section-heading text-highlight">
+                <span><i class="fa-solid fa-graduation-cap"></i></span>
+                <span>Education</span>
+            </h1>
+            <div>
+                <p style="font-size: xx-large; font-weight: 600;">Bachelors of Computer Applications</p>
+                <p>University Of Maharaja College (2020-2023)</p>
+                <p><i class="fa-sharp fa-solid fa-location-dot"></i> Jaipur, Rajasthan</p>
+                <p><i class="fa fa-calendar" aria-hidden="true"></i> July, 2023</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h1 class="section-heading mb75px text-highlight">
+                <span><i class="fa-solid fa-chalkboard-user"></i></span>
+                <span>SKILLS</span>
+            </h1>
+            <div class="skills-presentation">
+                <img class="spiral-img" src="spiral.png" alt="">
+                <div class="skill-name">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-name">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-name">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-name">
+                    <span>React</span>
+                </div>
+                <div class="skill-name">
+                    <span>Tailwind</span>
+                </div>
+                <div class="skill-name">
+                    <span>Redux</span>
+                </div>
+                <div class="skill-name">
+                    <span>Firebase</span>
+                </div>
+                <div class="skill-name">
+                    <span>Web</span>
+                </div>
+            </div>
 
-    </div>  
-    </main> 
+        </section>
+        <section id="portfolio">
+            <h1 class="section-heading text-highlight">
+                <span><i class="fas fa-th-list"></i></span>
+                <span>Portfolio</span>
+            </h1>
+            <div class="timeline" style="margin-bottom: 10px;">
+                <div class="timeline-box">
+                    <div class="project-info">
+                        <div class="project-img">
+                            <img src="./images/amazon-clone.png">
+                        </div>
+                        <div class="project-about">
+                            <p>Project : Amazon-clone</p>
+                            <p>Technologies : React, Redux, Tailwind, Firebase</p>
+                            <p>Live Demo : <a
+                                    href="https://amazon-clone-yadavravi1610.vercel.app/">https://amazon-clone-yadavravi1610.vercel.app</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <p><Description:/p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="project-info">
+                        <div class="project-img">
+                            <img src="./images/Weather-app.png">
+                        </div>
+                        <div class="project-about">
+                            <p>Project : Weather-app</p>
+                            <p>Technologies : HTML, CSS, JavaScript</p>
+                            <p>Live Demo : <a
+                                    href="https://weather-app-yadavravi1610.vercel.app/">https://weather-app-yadavravi1610.vercel.app</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="project-info">
+                        <div class="project-img">
+                            <img src="./images/tic-tac-toe.png">
+                        </div>
+                        <div class="project-about">
+                            <p>Project : Tic-tac-toe</p>
+                            <p>Technologies : HTML, CSS, JavaScript</p>
+                            <p>Live Demo : <a
+                                    href="https://tic-toc-toe-yadavravi1610.vercel.app/">https://tic-toc-toe-yadavravi1610.vercel.app</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="project-info">
+                        <div class="project-img">
+                            <img src="./images/calculator.png">
+                        </div>
+                        <div class="project-about">
+                            <p>Project : Calculator</p>
+                            <p>Technologies : HTML, CSS, JavaScript</p>
+                            <p>Live Demo : <a
+                                    href="https://calculator-yadavravi1610.vercel.app/">https://calculator-yadavravi1610.vercel.app</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                            <i class="fas fa-plane"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span><i class="far fa-address-card"></i></span>
+                <span>Contact</span>
+            </h1>
+            <div id="contact-container">
+                <div id="contact-form-container">
+                    <form action="" id="contact-form">
+                        <input id="input-name" name="name" placeholder="Your Name" type="text">
+                        <input id="input-email" name="email" placeholder="Your Email" type="email" required>
+                        <textarea name="input-message" id="input-message" cols="40" rows="2"
+                            placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div id="my-details-container">
+                    <h3> Get In touch</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni excepturi ducimus commodi
+                        est doloribus nam esse, laudantium repellendus voluptas sint animi accusantium maxime eaque
+                        beatae ut numquam unde culpa?</p>
+                    <h3>My Address</h3>
+                    <div class="my-details-info-container">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span>Delhi, India</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>+91 8295152107</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>ravinderyadav1610@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-stack-overflow"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-quora"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
