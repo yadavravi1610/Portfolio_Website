@@ -259,16 +259,18 @@ section:nth-child(2n+1) {
     color: white;
 }
 
-#contact-form {
-    margin-left: 20%;
-}
+/* #contact-form {
+    margin-left: 15%;
+} */
 
 #contact-container {
     display: flex;
+    padding-left: 5%;
+    gap: 5%;
 }
 
 #contact-form-container {
-    width: 50%;
+    width: 45%;
 }
 
 #contact-form input,
@@ -289,7 +291,7 @@ textarea {
     background: transparent;
     font-size: 0.95rem;
     border: 2px solid transparent;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-left: 35%;
     border-radius: 2px;
     color: white;
@@ -313,8 +315,6 @@ textarea {
 
 #my-details-container {
     width: 35%;
-    margin-left: 6%;
-
 }
 
 #my-details-container h3 {
@@ -331,16 +331,14 @@ textarea {
 .my-details-info-container {
     margin-bottom: 20px;
     color: #d9dcdd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%;
 }
-
-.my-details-info-container span {
-    margin-left: 0.4rem;
-}
-
 .my-details-info-container i {
     color: white;
 }
-
 #my-details-icon {
     width: 1rem;
     height: 1rem;
