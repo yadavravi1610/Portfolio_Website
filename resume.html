@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="/skills/skills.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e2e72319aa.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -30,7 +32,8 @@
         <div>
             <ul class="horizontal-list text-center social-icons">
                 <li>
-                    <a href="https://www.linkedin.com/in/ravinder-yadav-523876205/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/ravinder-yadav-523876205/"><i
+                            class="fa-brands fa-linkedin"></i></a>
                 </li>
                 <li>
                     <a href="https://github.com/yadavravi1610"><i class="fa-brands fa-github"></i></a>
@@ -41,7 +44,7 @@
                 <li>
                     <a href="mailto:ravinderyadav1610@gmail.com"><i class="fa-solid fa-envelope"></i></a>
                 </li>
-                
+
             </ul>
         </div>
     </header>
@@ -61,11 +64,24 @@
                 <span><i class="fa-solid fa-graduation-cap"></i></span>
                 <span>Education</span>
             </h1>
-            <div style="margin-left: 5%;">
-                <p style="font-size: xx-large; font-weight: 600;">Bachelors of Computer Applications</p>
-                <p>University Of Maharaja College (2020-2023)</p>
-                <p><i class="fa-sharp fa-solid fa-location-dot"></i> Jaipur, Rajasthan</p>
-                <p><i class="fa fa-calendar" aria-hidden="true"></i> July, 2023</p>
+            <div id="education-info">
+                <div>
+                    <p style="font-size: xx-large; font-weight: 600;">Bachelors of Computer Applications</p>
+                    <p>University Of Maharaja College (2020-2023)</p>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Jaipur, Rajasthan</p>
+                    <p><i class="fa fa-calendar" aria-hidden="true"></i> July, 2023</p>
+                </div>
+                <div>
+                    <p style="font-size: xx-large; font-weight: 600;">XII</p>
+                    <p>Vivekanand Sr. Sec. School (2018-2019)</p>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Rewari, Haryana</p>
+                    <p><i class="fa fa-calendar" aria-hidden="true"></i> June, 2019</p>
+                </div>
+                <div id="education-divider">
+                    <div class="education-traveller">
+                        <i class="fa-light fa-shuttle-space"></i>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="skills">
@@ -73,34 +89,43 @@
                 <span><i class="fa-solid fa-chalkboard-user"></i></span>
                 <span>SKILLS</span>
             </h1>
-            <!-- <div class="skills-presentation">
-                <img class="spiral-img" src="spiral.png" alt="">
-                <div class="skill-name">
-                    <span>HTML5</span>
+            <div class="all-skills">
+                <div class="web">
+                    <span id="web">web</span>
+                    <div class="skill" id="html">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill" id="css">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill" id="javascript">
+                        <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="skill" id="react">
+                        <span>REACTJS</span>
+                    </div>
+                    <div class="skill" id="redux">
+                        <span>REDUX</span>
+                    </div>
+                    <div class="skill" id="firebase">
+                        <span>FIREBASE</span>
+                    </div>
+                    <div class="skill" id="tailwind">
+                        <span>TAILWIND</span>
+                    </div>
+                    <div class="skill" id="context">
+                        <span>CONTEXT-API</span>
+                    </div>
+                    <div class="skill" id="git">
+                        <span>GIT</span>
+                    </div>
                 </div>
-                <div class="skill-name">
-                    <span>CSS3</span>
-                </div>
-                <div class="skill-name">
-                    <span>JavaScript</span>
-                </div>
-                <div class="skill-name">
-                    <span>React</span>
-                </div>
-                <div class="skill-name">
-                    <span>Tailwind</span>
-                </div>
-                <div class="skill-name">
-                    <span>Redux</span>
-                </div>
-                <div class="skill-name">
-                    <span>Firebase</span>
-                </div>
-                <div class="skill-name">
-                    <span>Web</span>
-                </div>
-            </div> -->
-
+                <div class="empty-circle circle-1"></div>
+                <div class="empty-circle circle-2"></div>
+                <div class="empty-circle circle-3"></div>
+                <div class="empty-circle circle-4"></div>
+                <div class="empty-circle circle-5"></div>
+            </div>
         </section>
         <section id="portfolio">
             <h1 class="section-heading text-highlight">
@@ -122,7 +147,12 @@
                         </div>
                     </div>
                     <div class="project-about">
-                        <p>Description : Developed an Amazon clone project showcasing expertise in React, Tailwind CSS, Redux, Firebase, and React Router. Features include user account creation and authentication, responsive design for various devices, efficient state management with Redux, Real time data handling via Firebase, and intuitive navigation with React Router. This project exemplifies modern web development skills and a user-centric approach, ensuring a seamless and engaging Ecommerce experience. </p>
+                        <p>Description : Developed an Amazon clone project showcasing expertise in React, Tailwind CSS,
+                            Redux, Firebase, and React Router. Features include user account creation and
+                            authentication, responsive design for various devices, efficient state management with
+                            Redux, Real time data handling via Firebase, and intuitive navigation with React Router.
+                            This project exemplifies modern web development skills and a user-centric approach, ensuring
+                            a seamless and engaging Ecommerce experience. </p>
                     </div>
                 </div>
                 <div class="project-box">
@@ -139,7 +169,10 @@
                         </div>
                     </div>
                     <div class="project-about">
-                        <p>Description : Developed an Amazon clone project showcasing expertise in React, Tailwind CSS, Redux, Firebase, and React Router. Features include user account creation and authentication, responsive design for various devices, efficient state management with Redux, Real time data handling via Firebase, and intuitive navigation with React Router. This project exemplifies modern web development skills and a user-centric approach, ensuring a seamless and engaging Ecommerce experience. </p>
+                        <p>Description : Built a real-time weather app that retrieves current temperature, wind speed,
+                            and humidity for any city. Leveraged an external API for accurate data, enabling users to
+                            input city names and instantly access up-to-date weather information. The project showcases
+                            proficiency in API integration, dynamic data display, and user-friendly design. </p>
                     </div>
                 </div>
                 <div class="project-box">
@@ -156,7 +189,10 @@
                         </div>
                     </div>
                     <div class="project-about">
-                        <p>Description : Developed an Amazon clone project showcasing expertise in React, Tailwind CSS, Redux, Firebase, and React Router. Features include user account creation and authentication, responsive design for various devices, efficient state management with Redux, Real time data handling via Firebase, and intuitive navigation with React Router. This project exemplifies modern web development skills and a user-centric approach, ensuring a seamless and engaging Ecommerce experience. </p>
+                        <p>Description : Developed an engaging web-based Tic-Tac-Toe game with responsive gameplay and
+                            multiplayer support. Implemented a robust winning logic system and ensured a seamless user
+                            experience across different devices. This project highlights proficiency in game development
+                            and interactive web applications, delivering a fun and accessible gaming experience. </p>
                     </div>
                 </div>
                 <div class="project-box">
@@ -173,7 +209,11 @@
                         </div>
                     </div>
                     <div class="project-about">
-                        <p>Description : Developed an Amazon clone project showcasing expertise in React, Tailwind CSS, Redux, Firebase, and React Router. Features include user account creation and authentication, responsive design for various devices, efficient state management with Redux, Real time data handling via Firebase, and intuitive navigation with React Router. This project exemplifies modern web development skills and a user-centric approach, ensuring a seamless and engaging Ecommerce experience. </p>
+                        <p>Description : Created an online calculator website with a user-friendly interface for diverse
+                            mathematical operations. The site is responsive, accommodating various devices. Robust error
+                            handling ensures accurate results. This project showcases strong web development skills and
+                            mathematical logic implementation, offering users a versatile and accessible calculation
+                            tool. </p>
                     </div>
                 </div>
                 <div id="project-divider">
@@ -222,7 +262,8 @@
             <div>
                 <ul class="horizontal-list text-center social-icons">
                     <li>
-                        <a href="https://www.linkedin.com/in/ravinder-yadav-523876205/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/ravinder-yadav-523876205/"><i
+                                class="fa-brands fa-linkedin"></i></a>
                     </li>
                     <li>
                         <a href="https://github.com/yadavravi1610"><i class="fa-brands fa-github"></i></a>
@@ -233,11 +274,9 @@
                     <li>
                         <a href="mailto:ravinderyadav1610@gmail.com"><i class="fa-solid fa-envelope"></i></a>
                     </li>
-                    
                 </ul>
             </div>
         </section>
     </main>
 </body>
-
 </html>
