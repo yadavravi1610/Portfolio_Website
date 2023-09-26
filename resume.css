@@ -65,8 +65,8 @@ body {
 }
 
 .social-icons li a i {
-    padding: 10px;
-    font-size: 1rem;
+    padding: 20px;
+    font-size: 1.7rem;
     border-radius: 50%;
 }
 
@@ -77,11 +77,9 @@ body {
 /* Section  */
 section {
     width: 100%;
-    /* height: 70vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding-bottom: 20px; */
 }
 
 section:nth-child(2n) {
@@ -94,8 +92,7 @@ section:nth-child(2n+1) {
 
 .section-heading {
     width: auto;
-    padding: 20px 20px 10px;
-    /* margin: 10px auto; */
+    /* padding: 20px 20px 10px; */
     font-weight: 400;
 }
 
@@ -103,7 +100,7 @@ section:nth-child(2n+1) {
     font-size: 30px;
     color: #2857a4;
     display: inline-block;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     margin-right: 0.5rem;
 }
 
@@ -112,6 +109,7 @@ section:nth-child(2n+1) {
     height: auto;
     width: 100%;
     position: relative;
+    margin-bottom: 20px;
 }
 
 #myimage {
@@ -119,7 +117,7 @@ section:nth-child(2n+1) {
     width: 12rem;
     margin: auto;
     margin-top: -15vh;
-
+    margin-bottom: 20px;
 }
 
 #myimage img {
@@ -190,15 +188,15 @@ section:nth-child(2n+1) {
     width: 0;
     height: 75%;
     left: -5%;
-    bottom: 4rem;
+    bottom: 3rem;
 }
 
 .education-traveller{
     position: sticky;
-    top: 2px;
-    right: 80%;
+    top: 0px;
+    right: 78%;
     z-index: 2;
-    /* transform: rotate(90deg); */
+    transform: rotate(90deg);
 }
 
 /* ----Skills---- */
@@ -209,7 +207,7 @@ section:nth-child(2n+1) {
     justify-content: center;
     align-items: center;
     height: 85vh;
-    margin: 30px 0 30px 0;
+    /* margin: 30px 0 30px 0; */
 
 }
 
@@ -407,64 +405,14 @@ section:nth-child(2n+1) {
     width: 75rem;
 }
 
-/* .skills-presentation {
-    display: flex;
-}
-
-/* Skills Section */
-/* .skills-display {
-    width: 70%; */
-    /* padding-top: 5rem;
-    margin-bottom: 1.5rem; */
-    /* display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.skill-progress {
-    width: 11rem;
-    height: 2.2rem;
-    background-color: lightgrey;
-    margin: 25px;
-    border-radius: 1rem;
-    overflow: hidden; */
-    /* border: 2px solid black ; */
-    /* box-shadow: inset 1px 1px 2px 1px #b9b9b9;
-}
-
-.skill-progress>div {
-    border-radius: 20px 0px 0px 20px;
-}
-
-.skill-name {
-    width: 6%;
-    height: 30px;
-    padding-top: 15px;
-    position: absolute;
-    margin-top: 290px;
-    margin-left: 635px;
-    margin-bottom: 2px;
-    text-align: center;
-    border-radius: 15px;
-    background-color: black;
-}
-
-.skill-name span {
-    color: white;
-    font-size: 1rem;
-    vertical-align: middle;
-} */ 
-
 /* work experience */
 .project {
     position: relative;
     width: 100%;
-    /* border: 2px solid black; */
 }
 
 .project-box {
     width: 39%;
-    /* min-height: 150px; */
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -483,9 +431,9 @@ section:nth-child(2n+1) {
     position: absolute;
     border: 3.5px dashed #0abcf9;
     width: 0;
-    height: 90%;
+    height: 88%;
     left: 50%;
-    bottom: 4rem;
+    bottom: 7.9rem;
 }
 
 .project-traveller{
@@ -522,10 +470,6 @@ section:nth-child(2n+1) {
 #contact h1 span {
     color: white;
 }
-
-/* #contact-form {
-    margin-left: 15%;
-} */
 
 #contact-container {
     display: flex;
@@ -569,12 +513,6 @@ textarea {
 #contact-form button:hover {
     background: white;
     color: #13386fe0;
-}
-
-#contact .social-icons li a i {
-    font-size: 1.2rem;
-    margin: 40px 10px 10px;
-    padding: 10px 14px 20px 10px;
 }
 
 #my-details-container {
