@@ -1,0 +1,68 @@
+
+#education{
+    display: flex;
+    justify-content: center;
+}
+
+#education-info {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid transparent;
+}
+
+.achievements {
+    position: relative;
+}
+
+.achievements h3{
+    font-weight: 100;
+    margin-top: -10px;
+}
+.achievements h5{
+    margin-top: -8px;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.achievements h6{
+    margin-top: -15px;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.achievements::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+    top: 35%;
+    left: -9.3%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#education-divider {
+    position: absolute;
+    width: 0;
+    height: 53%;
+    left: -2rem;
+    top: 18%;
+    border: 1px dashed #0abcf9;
+}
+
+.education-traveller {
+    position: sticky;
+    bottom: 80px;
+    top: 30%;
+    font-size: x-large;
+    z-index: 2;
+    transform: rotate(90deg);
+}
+
+.education-traveller i{
+    margin-left: -15px;
+    color: darkblue;
+}
