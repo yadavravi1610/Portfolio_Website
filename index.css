@@ -1,8 +1,7 @@
 body {
     margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
-    overflow-x: hidden;
-    /* font-size: 30px; */
 }
 
 /* Body-Header */
@@ -21,13 +20,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 7%;
+    gap: 3%;
 }
 
 .horizontal-list {
     list-style: none;
     padding-left: 0px;
-    /* margin: 0px; */
 }
 
 .horizontal-list li {
@@ -44,11 +42,6 @@ body {
     font-size: 20px;
 }
 
-.horizontal-list li a:hover {
-    color: lightgray;
-    text-decoration: underline;
-}
-
 .text-center {
     text-align: center;
 }
@@ -58,20 +51,26 @@ body {
 }
 
 #my-name {
-    font-size: 5rem;
+    font-size: 3.5rem;
+    margin-top: 20vh;
     letter-spacing: 0.2rem;
+    font-weight: 700;
     color: white;
-    margin-bottom: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li{
+    margin: 0px 10px;
 }
 
 .social-icons li a i {
-    padding: 20px;
-    font-size: 1.7rem;
+    padding: 8px;
+    font-size: 1.3rem;
     border-radius: 50%;
 }
 
 .social-icons li a i:hover {
-    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.2);
+    box-shadow: 0px 0px 6px 4px rgba(255, 196, 196, 0.5);
 }
 
 /* Section  */
@@ -82,17 +81,16 @@ section {
 }
 .section-heading {
     width: 100%;
-    padding: 30px 0px 30px;
+    padding: 50px 0px 50px;
     text-align: center;
     font-weight: 400;
     background-color: #9e9b9b29;
 }
 
 .section-heading span {
-    font-size: 30px;
+    font-size: 50px;
     color: #2857a4;
     display: inline-block;
-    /* padding-top: 10px; */
     margin-right: 0.5rem;
 }
 
@@ -127,10 +125,10 @@ section {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    color: grey;
+    color: rgb(68,66,66);
     line-height: 28px;
     font-weight: 100;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 #education{
     display: flex;
@@ -140,21 +138,39 @@ section {
 #education-info {
     position: relative;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     border: 2px solid transparent;
 }
 
 .achievements {
     position: relative;
-    bottom: 20px;
 }
+
+.achievements h3{
+    font-weight: 100;
+    margin-top: -10px;
+}
+.achievements h5{
+    margin-top: -8px;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.achievements h6{
+    margin-top: -15px;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
 .achievements::after {
     content: '';
     position: absolute;
     width: 15px;
     height: 15px;
     background-color: lightgray;
-    top: 9%;
-    left: -7%;
+    top: 35%;
+    left: -9.3%;
     border-radius: 50%;
     z-index: 1;
 }
@@ -162,16 +178,16 @@ section {
 #education-divider {
     position: absolute;
     width: 0;
-    height: 50%;
+    height: 53%;
     left: -2rem;
-    bottom: 10.2rem;
+    top: 18%;
     border: 1px dashed #0abcf9;
 }
 
 .education-traveller {
     position: sticky;
     bottom: 80px;
-    top: 10px;
+    top: 30%;
     font-size: x-large;
     z-index: 2;
     transform: rotate(90deg);
@@ -396,28 +412,29 @@ section {
 }
 
 /* work experience */
-.project{
+/* .project{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .project-box{
-    width: 30%;
+    width: 20%;
     min-width: 400px;
     height: auto;
     margin-bottom: 50px;
-    /* background: linear-gradient(rgb(222, 221, 222)); */
-    background: linear-gradient(180deg, #eaeaeaf8 , #fdf9f9);
+    background: linear-gradient(125deg, #eaeaeaf8 , #e6e0e0);
     border: 2px solid transparent;
     border-radius: 20px;
 }
 
 .project-img img{
-    width: 95%;
-    height: 40vh;
-    padding: 10px;
-    border-radius: 20px;
+    width: 88%;
+    height: 45vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;    
 }
 .project-img img:hover{
     box-shadow:0px 0px 18px #888888;
@@ -427,7 +444,7 @@ section {
 
 .project-about{
     padding: 10px;
-}
+} */
 
 /* Contact Form */
 #contact {
@@ -447,6 +464,8 @@ section {
     display: flex;
     padding-left: 5%;
     gap: 5%;
+    padding-bottom: 20px;
+    padding-top: -50px;
 }
 
 #contact-form-container {
