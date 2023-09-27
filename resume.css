@@ -79,7 +79,6 @@ section {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .section-heading {
     width: 100%;
@@ -133,10 +132,14 @@ section {
     font-weight: 100;
     font-size: 1.1rem;
 }
+#education{
+    display: flex;
+    justify-content: center;
+}
 
 #education-info {
     position: relative;
-    /* left: 5%; */
+    margin: auto;
     border: 2px solid transparent;
 }
 
@@ -393,49 +396,37 @@ section {
 }
 
 /* work experience */
-.project {
-    position: relative;
-    width: 100%;
-}
-
-.project-box {
-    width: 100%;
-    padding: 5px;
+.project{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
-    left: 5%;
-    padding-left: 1%;
-    position: relative;
-    gap: 25px;
-    /* text-align: ; */
+}
+
+.project-box{
+    width: 30%;
+    min-width: 400px;
+    height: auto;
+    margin-bottom: 50px;
+    /* background: linear-gradient(rgb(222, 221, 222)); */
+    background: linear-gradient(180deg, #eaeaeaf8 , #fdf9f9);
     border: 2px solid transparent;
+    border-radius: 20px;
 }
 
-/* 
-.project-box:nth-child(2n) {
-    left: 53.2%;
-} */
-
-#project-divider {
-    position: absolute;
-    border: 1px dashed #0abcf9;
-    width: 0;
-    height: 88%;
-    left: 2%;
-    bottom: 7.9rem;
-}
-
-.project-traveller {
-    position: sticky;
-    /* top: 2px; */
-    z-index: 2;
-    transform: rotate(90deg);
-}
 .project-img img{
-    width: 100%;
-    height: 8rem;
-    background-size: cover;
+    width: 95%;
+    height: 40vh;
+    padding: 10px;
+    border-radius: 20px;
+}
+.project-img img:hover{
+    box-shadow:0px 0px 18px #888888;
+    transform: scale(1.01);
+    transition: 0.4s ease-in-out;
+}
+
+.project-about{
+    padding: 10px;
 }
 
 /* Contact Form */
