@@ -6,8 +6,6 @@
     justify-content: center;
     align-items: center;
     height: 85vh;
-    /* margin: 30px 0 30px 0; */
-
 }
 
 .web,
@@ -210,30 +208,30 @@
     width: 75rem;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:412px) {
     .circle-1 {
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .circle-2 {
-        height: 10rem;
-        width: 10rem;
+        height: 8rem;
+        width: 8rem;
     }
 
     .circle-3 {
-        height: 15rem;
-        width: 15rem;
+        height: 13rem;
+        width: 13rem;
     }
 
     .circle-4 {
-        height: 20rem;
-        width: 20rem;
+        height: 17rem;
+        width: 17rem;
     }
 
     .circle-5 {
-        height: 25rem;
-        width: 25rem;
+        height: 21rem;
+        width: 21rem;
     }
 
     .web,
@@ -351,13 +349,16 @@
         }
     
         100% {
-            transform: translate(0px, -200px);
+            transform: translate(0px, -170px);
         }
+    }
+    .all-skills {
+        position: relative;
     }
 
 }
 
-@media screen and (min-width:600px) and (max-width: 900px) {
+@media screen and (min-width:724px) and (max-width: 900px) {
     .circle-1{
         width: 8rem;
         height: 5rem;
