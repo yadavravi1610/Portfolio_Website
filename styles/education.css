@@ -66,3 +66,15 @@
     margin-left: -15px;
     color: darkblue;
 }
+
+@media screen and (max-width:600px){
+     #education-divider {
+        left: -1.8rem;
+        top: 20%;
+    }
+    #education-info {
+        position: relative;
+        margin-left: 20%;
+        border: 2px solid transparent;
+    }
+}
