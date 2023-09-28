@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    height: 80vh;
 }
 
 .web,
@@ -208,58 +208,51 @@
     width: 75rem;
 }
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:736px) {
+    .all-skills{
+    margin: 50px auto;
+    }
     .circle-1 {
         width: 3rem;
         height: 3rem;
     }
-
     .circle-2 {
         height: 8rem;
         width: 8rem;
     }
-
     .circle-3 {
         height: 13rem;
         width: 13rem;
     }
-
     .circle-4 {
         height: 17rem;
         width: 17rem;
     }
-
     .circle-5 {
         height: 21rem;
         width: 21rem;
     }
-
     .web,
     .skill {
         font-size: 1rem;
         font-weight: 200;
     }
-
     .web {
         height: 3rem;
         width: 3rem;
     }
-
     #html,#css,#git{
         width: 60px;
     }
-
     #javascript,
     #firebase,
     #tailwind {
         width: 80px;
     }
-
     #react,
     #redux {
         width: 90px;
     }
-
     #context {
         width: 100px;
     }
@@ -267,7 +260,6 @@
         0% {
             transform: translate(0, 0);
         }
-    
         100% {
             transform: translate(-80px, 0px);
         }
@@ -277,7 +269,6 @@
         0% {
             transform: translate(0, 0);
         }
-    
         100% {
             transform: translate(0px, -80px);
         }
@@ -287,7 +278,6 @@
         0% {
             transform: translate(0, 0);
         }
-    
         100% {
             transform: translate(90px, 0px);
         }
@@ -297,7 +287,6 @@
         0% {
             transform: translate(0, 0);
         }
-    
         100% {
             transform: translate(0px, 80px);
         }
@@ -307,7 +296,6 @@
         0% {
             transform: translate(0, 0);
         }
-    
         100% {
             transform: translate(100px, 120px);
         }
@@ -317,7 +305,6 @@
         0% {
             transform: translate(0, 0);
         }
-    
         100% {
             transform: translate(-100px, -120px);
         }
@@ -327,7 +314,6 @@
         0% {
             transform: translate(0, 0);
         }
-    
         100% {
             transform: translate(100px, -120px);
         }
@@ -337,7 +323,6 @@
         0% {
             transform: translate(0, 0);
         }
-    
         100% {
             transform: translate(-100px, 120px);
         }
@@ -346,19 +331,19 @@
     @keyframes moveGit {
         0% {
             transform: translate(0, 0);
-        }
-    
+        }    
         100% {
             transform: translate(0px, -170px);
         }
     }
-    .all-skills {
-        position: relative;
-    }
+   
 
 }
 
-@media screen and (min-width:724px) and (max-width: 900px) {
+@media screen and (min-width:736px) and (max-width: 1250px) {
+    .all-skills{
+        margin: 50px auto;
+        }
     .circle-1{
         width: 8rem;
         height: 5rem;

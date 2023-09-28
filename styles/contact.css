@@ -58,7 +58,8 @@
 }
 
 #my-details-container {
-    width: 35%;
+    width: 45%;
+    text-align: justify;
 }
 
 #my-details-container h3 {
@@ -111,7 +112,7 @@ button:focus {
         margin: auto;
     }
     #my-details-container {
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
     #contact-form input,textarea{
@@ -119,5 +120,8 @@ button:focus {
     }
     #contact-form button{
         margin-left: 5%;
+    }
+    .my-details-info-container{
+    font-weight: 600;
     }
 }

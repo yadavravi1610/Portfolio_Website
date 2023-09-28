@@ -46,9 +46,8 @@
 #education-divider {
     position: absolute;
     width: 0;
-    height: 53%;
+    height: 68%;
     left: -2rem;
-    top: 18%;
     border: 1px dashed #0abcf9;
 }
 
@@ -66,14 +65,62 @@
     color: darkblue;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:400px){
      #education-divider {
-        left: -1.4rem;
-        top: 20%;
+        left: -3rem;
+        top: 13.5%;
     }
     #education-info {
         position: relative;
         margin-left: 20%;
         border: 2px solid transparent;
     }
+    .achievements::after {
+        left: -20%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:500px){
+    #education-divider {
+       left: -3.4rem;
+       top: 13.5%;
+   }
+   #education-info {
+       position: relative;
+       margin-left: 20%;
+       border: 2px solid transparent;
+   }
+   .achievements::after {
+       left: -20%;
+   }
+}
+
+@media screen and (min-width: 500px) and (max-width:800px){
+    #education-divider {
+       left: -17.9%;
+       top: 13%;
+   }
+   #education-info {
+       position: relative;
+       margin-left: 20%;
+       border: 2px solid transparent;
+   }
+   .achievements::after {
+       left: -19.8%;
+   }
+}
+
+@media screen and (min-width: 800px) and (max-width:1600px){
+    #education-divider {
+       left: -6rem;
+       top: 12%;
+   }
+   #education-info {
+       position: relative;
+       margin-left: 30%;
+       border: 2px solid transparent;
+   }
+   .achievements::after {
+       left: -25%;
+   }
 }
