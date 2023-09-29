@@ -208,6 +208,12 @@
     width: 75rem;
 }
 
+@media screen and (max-width: 500px){
+    .all-skills{
+        height: 50vh;
+    }
+}
+
 @media screen and (max-width:736px) {
     .all-skills{
     margin: 50px auto;
