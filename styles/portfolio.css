@@ -74,6 +74,7 @@
 .project-tech {
     font-size: 1.4rem;
     color: rgb(235, 130, 45);
+    cursor: pointer;
     font-weight: 500;
     margin-top: -13px;
 }
