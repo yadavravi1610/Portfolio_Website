@@ -159,8 +159,8 @@
     #portfolio-divider {
         position: absolute;
         left: 2%;
-        top: 3.8%;
-        height: 77.3%;
+        top: 3.5%;
+        height: 80.5%;
     }
     .portfolio-traveller {
         margin-left: -1.95px;
@@ -206,8 +206,8 @@
     #portfolio-divider {
         position: absolute;
         left: 2%;
-        top: 4.5%;
-        height: 77.2%;
+        top: 3.8%;
+        height: 80.4%;
     }
     .portfolio-traveller {
         margin-left: -2px;
@@ -255,8 +255,8 @@
     #portfolio-divider {
         position: absolute;
         left: 16.5%;
-        top: 4%;
-        height: 78%;
+        top: 3.7%;
+        height: 81%;
     }
     .portfolio-traveller {
         margin-left: -1.8px;
@@ -264,23 +264,22 @@
 
 }
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 700px) and (max-width: 899px) {
     .project-box:nth-child(2n+1) .project-img {
-        width: 16.3rem;
+        width: 100%;
         position: relative;
     }
     .project-box:nth-child(2n) .project-img {
-        width: 16.3rem;
-        height: 10rem;
+        width: 100%;
         position: relative;
     }
     .project-box:nth-child(2n+1)::after {
         top: 10%;
-        right: -14.3%;
+        right: -13.9%;
     }
     .project-box:nth-child(2n)::after {
         top: 10%;
-        left: -13.5%;
+        left: -13.4%;
     }
     .project-title {
         margin-top: 40px;
@@ -291,7 +290,7 @@
         position: absolute;
         left: 50%;
         top: 2%;
-        height: 78%;
+        height: 81%;
     }
     #clock{
         width: 16rem;
@@ -300,8 +299,13 @@
 
 }
 
-@media screen and (min-width: 900px)  {
-    
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 30%;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 30%;
+    }  
     .project-box:nth-child(2n+1)::after {
         top: 10%;
         right: -12.8%;
@@ -315,7 +319,7 @@
     }
     #portfolio-divider {
         left: 50%;
-        top: 5%;
+        top: 4.6%;
         height: 82%;
     }
 
