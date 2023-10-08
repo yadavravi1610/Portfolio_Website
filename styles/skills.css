@@ -214,6 +214,7 @@
     }
     .skill span{
         font-size: small;
+        font-weight: normal;
     }
     .circle-1 {
         width: 3rem;
@@ -247,8 +248,8 @@
     }
 
     .web {
-        height: 3rem;
-        width: 3rem;
+        height: 5rem;
+        width: 5rem;
     }
 
     #html,
