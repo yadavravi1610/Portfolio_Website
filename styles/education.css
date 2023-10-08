@@ -68,7 +68,8 @@
 @media screen and (max-width:400px){
      #education-divider {
         left: -17.5%;
-        top: 13.5%;
+        top: 11.5%;
+        height: 70%;
     }
     #education-info {
         position: relative;
@@ -83,7 +84,8 @@
 @media screen and (min-width: 400px) and (max-width:500px){
     #education-divider {
        left: -18%;
-       top: 13.5%;
+       top: 11%;
+       height: 70%;
    }
    #education-info {
        position: relative;
