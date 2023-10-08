@@ -244,7 +244,7 @@
     .web,
     .skill {
         font-size: 1rem;
-        font-weight: 200;
+        font-weight: normal;
     }
 
     .web {
@@ -406,8 +406,8 @@
     }
 
     .web {
-        height: 3rem;
-        width: 3rem;
+        height: 5rem;
+        width: 5rem;
     }
 
     #html,
@@ -565,8 +565,8 @@
     }
 
     .web {
-        height: 4rem;
-        width: 4rem;
+        height: 5rem;
+        width: 5rem;
     }
 
     #html,
