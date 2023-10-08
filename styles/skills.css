@@ -208,109 +208,137 @@
     width: 75rem;
 }
 
-@media screen and (max-width: 500px){
-    .all-skills{
+@media screen and (max-width: 500px) {
+    .all-skills {
         height: 50vh;
+    }
+
+    .skill span {
+        font-size: small;
     }
 }
 
-@media screen and (max-width:736px) {
-    .all-skills{
-    margin: 50px auto;
+@media screen and (min-width:500px) and (max-width:736px) {
+    .all-skills {
+        margin: 50px auto;
     }
+
+    .skill span {
+        font-size: small;
+    }
+
     .circle-1 {
         width: 3rem;
         height: 3rem;
     }
+
     .circle-2 {
         height: 8rem;
         width: 8rem;
     }
+
     .circle-3 {
         height: 13rem;
         width: 13rem;
     }
+
     .circle-4 {
         height: 17rem;
         width: 17rem;
     }
+
     .circle-5 {
         height: 21rem;
         width: 21rem;
     }
+
     .web,
     .skill {
         font-size: 1rem;
         font-weight: 200;
     }
+
     .web {
         height: 3rem;
         width: 3rem;
     }
-    #html,#css,#git{
+
+    #html,
+    #css,
+    #git {
         width: 60px;
     }
+
     #javascript,
     #firebase,
     #tailwind {
         width: 80px;
     }
+
     #react,
     #redux {
         width: 90px;
     }
+
     #context {
         width: 100px;
     }
+
     @keyframes moveHTML {
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(-80px, 0px);
         }
     }
-   
+
     @keyframes moveCSS {
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(0px, -80px);
         }
     }
-   
+
     @keyframes moveJavaScript {
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(90px, 0px);
         }
     }
-  
+
     @keyframes moveReact {
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(0px, 80px);
         }
     }
-   
+
     @keyframes moveRedux {
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(100px, 120px);
         }
     }
-    
+
     @keyframes moveFirebase {
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(-100px, -120px);
         }
@@ -320,56 +348,69 @@
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(100px, -120px);
         }
     }
- 
+
     @keyframes moveContext {
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(-100px, 120px);
         }
     }
-     
+
     @keyframes moveGit {
         0% {
             transform: translate(0, 0);
-        }    
+        }
+
         100% {
             transform: translate(0px, -170px);
         }
     }
-   
+
 
 }
 
 @media screen and (min-width:736px) and (max-width: 1250px) {
-    .all-skills{
+    .all-skills {
         margin: 50px auto;
-        }
-    .circle-1{
+    }
+
+    .skill span {
+        font-size: medium;
+    }
+
+    .circle-1 {
         width: 8rem;
         height: 5rem;
     }
-    .circle-2{
+
+    .circle-2 {
         height: 10rem;
         width: 15rem;
     }
-    .circle-3{
+
+    .circle-3 {
         height: 15rem;
         width: 25rem;
     }
+
     .circle-4 {
         height: 25rem;
         width: 35rem;
     }
+
     .circle-5 {
         height: 35rem;
         width: 45rem;
     }
+
     .web,
     .skill {
         font-size: 1.2rem;
@@ -381,7 +422,9 @@
         width: 4rem;
     }
 
-    #html,#css,#git{
+    #html,
+    #css,
+    #git {
         width: 80px;
     }
 
@@ -399,71 +442,72 @@
     #context {
         width: 120px;
     }
+
     @keyframes moveHTML {
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(-120px, 0px);
         }
     }
-    
+
     @keyframes moveCSS {
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(0px, -80px);
         }
     }
-    
+
     @keyframes moveJavaScript {
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(120px, 0px);
         }
     }
-    
+
     @keyframes moveReact {
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(0px, 80px);
         }
     }
-    
+
     @keyframes moveRedux {
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(220px, 120px);
         }
     }
-    
+
     @keyframes moveFirebase {
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(-220px, -120px);
         }
     }
-    
+
     @keyframes moveTailwind {
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(220px, -120px);
         }
@@ -473,7 +517,7 @@
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(-220px, 120px);
         }
@@ -483,7 +527,7 @@
         0% {
             transform: translate(0, 0);
         }
-    
+
         100% {
             transform: translate(0px, -280px);
         }
