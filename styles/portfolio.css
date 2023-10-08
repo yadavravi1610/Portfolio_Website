@@ -121,6 +121,1100 @@
 }
 
 /* Responsiveness */
+@media screen and (max-width: 1440px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -12.9%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 1.8%;
+        height: 86.8%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+}
+@media screen and (max-width: 1340px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -12.9%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 1.8%;
+        height: 86.6%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -12.9%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 1.8%;
+        height: 86.4%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -12.9%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 1.8%;
+        height: 86.2%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+} 
+@media screen and (max-width: 1143px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        height: 40%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -12.9%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 1.8%;
+        height: 85.9%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+} 
+@media screen and (max-width: 1100px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -12.9%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        height: 85.6%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+} 
+@media screen and (max-width: 1046px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.6%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -13%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 1.8%;
+        height: 84.6%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+} 
+@media screen and (max-width: 1020px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.6%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -13%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        height: 84.5%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+}
+@media screen and (max-width: 987px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.9%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -13.4%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        height: 83.8%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+}
+@media screen and (max-width: 913px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.9%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -13.4%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        height: 83.9%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+}
+@media screen and (max-width: 891px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.9%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -13.4%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        height: 83.5%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+}
+@media screen and (max-width: 840px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.9%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -13.4%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        height: 82.7%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.9%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -13.4%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        height: 82.7%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+}
+@media screen and (max-width: 750px) {
+    .project-box:nth-child(2n+1) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 100%;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        right: -13.9%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -13.4%;
+    }
+    .project-title {
+        margin-top: 40px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        height: 82.6%;
+    }
+    #clock{
+        width: 16rem;
+        height: 12rem;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    
+    .project-box {
+        width: 60%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 19.4rem;
+        height: 10rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 19.4rem;
+        height: 10rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -24.6%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -24.6%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 16.5%;
+        top: 3.7%;
+        height: 80.2%;
+    }
+    .portfolio-traveller {
+        margin-left: -1.8px;
+    }
+
+}
+@media screen and (max-width: 685px) {
+    
+    .project-box {
+        width: 60%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 19.4rem;
+        height: 10rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 19.4rem;
+        height: 10rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -24.6%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -24.6%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 16.5%;
+        top: 3.7%;
+        height: 80.5%;
+    }
+    .portfolio-traveller {
+        margin-left: -1.8px;
+    }
+
+}
+@media screen and (max-width: 670px) {
+    
+    .project-box {
+        width: 60%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 19.4rem;
+        height: 10rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 19.4rem;
+        height: 10rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -24.6%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -24.6%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 16.5%;
+        top: 3.7%;
+        height: 80.3%;
+    }
+    .portfolio-traveller {
+        margin-left: -1.8px;
+    }
+
+}
+@media screen and (max-width: 630px) {
+    
+    .project-box {
+        width: 60%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 19.4rem;
+        height: 10rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 19.4rem;
+        height: 10rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -24.6%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -24.6%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 16.5%;
+        top: 3.7%;
+        height: 79.9%;
+    }
+    .portfolio-traveller {
+        margin-left: -1.8px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 1.2%;
+        top: 3.8%;
+        height: 81%;
+    }
+    .portfolio-traveller {
+        margin-left: -2px;
+    }
+
+}
+@media screen and (max-width: 588px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 1.2%;
+        top: 3.9%;
+        height: 80%;
+    }
+    .portfolio-traveller {
+        margin-left: -2px;
+    }
+
+}
+@media screen and (max-width: 556px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 1.2%;
+        top: 3.9%;
+        height: 79.5%;
+    }
+    .portfolio-traveller {
+        margin-left: -2px;
+    }
+}
+
+@media only screen and (min-width:554px) and (max-width:556px){
+    #portfolio-divider {
+        height: 79.8%;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 1.2%;
+        top: 3.9%;
+        height: 79.9%;
+    }
+    .portfolio-traveller {
+        margin-left: -2px;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 15rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 1.5%;
+        top: 3.8%;
+        height: 80.4%;
+    }
+    .portfolio-traveller {
+        margin-left: -2px;
+    }
+
+}
+@media screen and (max-width:500px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 13.5rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 13.5rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 1.5%;
+        top: 3.6%;
+        height: 80.1%;
+    }
+    .portfolio-traveller {
+        margin-left: -1.95px;
+    }
+
+}
+@media screen and (max-width:472px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 13.5rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 13.5rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 2%;
+        top: 3.6%;
+        height: 79.8%;
+    }
+    .portfolio-traveller {
+        margin-left: -1.95px;
+    }
+
+}
+@media screen and (max-width:450px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 13.5rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 13.5rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 2%;
+        top: 3.6%;
+        height: 80%;
+    }
+    .portfolio-traveller {
+        margin-left: -1.95px;
+    }
+
+}
+@media screen and (max-width:420px) {
+    
+    .project-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+    .project-box:nth-child(2n+1) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n) {
+        left: 10%;
+        text-align: left;
+    }
+    .project-box:nth-child(2n+1) .project-img {
+        width: 13.5rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n) .project-img {
+        width: 13.5rem;
+        position: relative;
+    }
+    .project-box:nth-child(2n+1)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-box:nth-child(2n)::after {
+        top: 10%;
+        left: -25.4%;
+    }
+    .project-title {
+        margin-top: 10px;
+        font-size: 2rem;
+        color: rgb(40, 87, 164);
+    }
+    #portfolio-divider {
+        position: absolute;
+        left: 2%;
+        top: 3.6%;
+        height: 80.4%;
+    }
+    .portfolio-traveller {
+        margin-left: -1.95px;
+    }
+
+}
 @media screen and (max-width: 400px) {
     
     .project-box {
@@ -160,724 +1254,10 @@
         position: absolute;
         left: 2%;
         top: 3.6%;
-        height: 80.5%;
+        height: 80.35%;
     }
     .portfolio-traveller {
         margin-left: -1.95px;
     }
 
-}
-@media screen and (min-width: 400px) and (max-width:420px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 13.5rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 13.5rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 2%;
-        top: 3.6%;
-        height: 80.4%;
-    }
-    .portfolio-traveller {
-        margin-left: -1.95px;
-    }
-
-}
-@media screen and (min-width: 420px) and (max-width:450px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 13.5rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 13.5rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 2%;
-        top: 3.6%;
-        height: 80%;
-    }
-    .portfolio-traveller {
-        margin-left: -1.95px;
-    }
-
-}
-@media screen and (min-width: 450px) and (max-width:472px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 13.5rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 13.5rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 2%;
-        top: 3.6%;
-        height: 79.8%;
-    }
-    .portfolio-traveller {
-        margin-left: -1.95px;
-    }
-
-}
-@media screen and (min-width: 472px) and (max-width:500px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 13.5rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 13.5rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 1.5%;
-        top: 3.6%;
-        height: 80%;
-    }
-    .portfolio-traveller {
-        margin-left: -1.95px;
-    }
-
-}
-@media screen and (min-width: 500px) and (max-width: 510px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 1.5%;
-        top: 3.8%;
-        height: 80.4%;
-    }
-    .portfolio-traveller {
-        margin-left: -2px;
-    }
-
-}
-@media screen and (min-width: 510px) and (max-width: 536px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 1.2%;
-        top: 3.9%;
-        height: 79.8%;
-    }
-    .portfolio-traveller {
-        margin-left: -2px;
-    }
-
-}
-@media screen and (min-width: 536px) and (max-width: 555px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 1.2%;
-        top: 3.9%;
-        height: 79.7%;
-    }
-    .portfolio-traveller {
-        margin-left: -2px;
-    }
-
-}
-@media screen and (min-width: 555px) and (max-width: 588px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 1.2%;
-        top: 3.9%;
-        height: 80.2%;
-    }
-    .portfolio-traveller {
-        margin-left: -2px;
-    }
-
-}
-@media screen and (min-width: 588px) and (max-width: 600px) {
-    
-    .project-box {
-        width: 80%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 15rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -25.4%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 1.2%;
-        top: 3.8%;
-        height: 81.3%;
-    }
-    .portfolio-traveller {
-        margin-left: -2px;
-    }
-
-}
-@media screen and (min-width: 600px) and (max-width: 630px) {
-    
-    .project-box {
-        width: 60%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 19.4rem;
-        height: 10rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 19.4rem;
-        height: 10rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -24.6%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -24.6%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 16.5%;
-        top: 3.7%;
-        height: 81%;
-    }
-    .portfolio-traveller {
-        margin-left: -1.8px;
-    }
-
-}
-@media screen and (min-width: 630px) and (max-width: 670px) {
-    
-    .project-box {
-        width: 60%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 19.4rem;
-        height: 10rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 19.4rem;
-        height: 10rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -24.6%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -24.6%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 16.5%;
-        top: 3.7%;
-        height: 81.5%;
-    }
-    .portfolio-traveller {
-        margin-left: -1.8px;
-    }
-
-}
-@media screen and (min-width: 670px) and (max-width: 685px) {
-    
-    .project-box {
-        width: 60%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 19.4rem;
-        height: 10rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 19.4rem;
-        height: 10rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -24.6%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -24.6%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 16.5%;
-        top: 3.7%;
-        height: 81.7%;
-    }
-    .portfolio-traveller {
-        margin-left: -1.8px;
-    }
-
-}
-@media screen and (min-width: 685px) and (max-width: 700px) {
-    
-    .project-box {
-        width: 60%;
-        margin: 50px auto;
-    }
-    .project-box:nth-child(2n+1) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n) {
-        left: 10%;
-        text-align: left;
-    }
-    .project-box:nth-child(2n+1) .project-img {
-        width: 19.4rem;
-        height: 10rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 19.4rem;
-        height: 10rem;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        left: -24.6%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -24.6%;
-    }
-    .project-title {
-        margin-top: 10px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 16.5%;
-        top: 3.7%;
-        height: 81.4%;
-    }
-    .portfolio-traveller {
-        margin-left: -1.8px;
-    }
-
-}
-@media screen and (min-width: 700px) and (max-width: 899px) {
-    .project-box:nth-child(2n+1) .project-img {
-        width: 100%;
-        position: relative;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 100%;
-        position: relative;
-    }
-    .project-box:nth-child(2n+1)::after {
-        top: 10%;
-        right: -13.9%;
-    }
-    .project-box:nth-child(2n)::after {
-        top: 10%;
-        left: -13.4%;
-    }
-    .project-title {
-        margin-top: 40px;
-        font-size: 2rem;
-        color: rgb(40, 87, 164);
-    }
-    #portfolio-divider {
-        position: absolute;
-        left: 50%;
-        top: 2%;
-        height: 80.3%;
-    }
-    #clock{
-        width: 16rem;
-        height: 12rem;
-    }
-
-}
-
-@media screen and (min-width: 900px) and (max-width: 1050px) {
-    .project-box:nth-child(2n+1) .project-img {
-        width: 30%;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 30%;
-    }  
-    .project-box:nth-child(2n+1)::after {
-        right: -13.5%;
-    }
-    .project-box:nth-child(2n)::after {
-        left: -13%;
-    }
-    .project-title {
-        margin-top: 40px;
-        font-size: 1.5rem;
-    }
-    #portfolio-divider {
-        left: 50%;
-        top: 9.2%;
-        height: 81%;
-    }
-
-
-}
-
-@media screen and (min-width: 1050px) and (max-width: 1200px) {
-    .project-box:nth-child(2n+1) .project-img {
-        width: 30%;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 30%;
-    }  
-    .project-box:nth-child(2n+1)::after {
-        right: -13.4%;
-    }
-    .project-box:nth-child(2n)::after {
-        left: -12.8%;
-    }
-    .project-title {
-        margin-top: 40px;
-        font-size: 1.5rem;
-    }
-    #portfolio-divider {
-        left: 50%;
-        top: 9.2%;
-        height: 81.5%;
-    }
 } 
-
-@media screen and (min-width: 1200px) and (max-width: 1300px) {
-    .project-box:nth-child(2n+1) .project-img {
-        width: 30%;
-    }
-    .project-box:nth-child(2n) .project-img {
-        width: 30%;
-    }  
-    .project-box:nth-child(2n+1)::after {
-        right: -13%;
-    }
-    .project-box:nth-child(2n)::after {
-        left: -12.7%;
-    }
-    .project-title {
-        margin-top: 40px;
-        font-size: 1.5rem;
-    }
-    #portfolio-divider {
-        left: 50%;
-        top: 9.2%;
-        height: 81.5%;
-    }
-}
