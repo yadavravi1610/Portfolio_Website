@@ -46,15 +46,15 @@
 #education-divider {
     position: absolute;
     width: 0;
-    height: 68%;
-    left: -2rem;
+    height: 75.6%;
+    left: -10rem;
     border: 1px dashed #0abcf9;
 }
 
 .education-traveller {
     position: sticky;
     bottom: 80px;
-    top: 30%;
+    top: 10%;
     font-size: x-large;
     z-index: 2;
     transform: rotate(90deg);
@@ -68,8 +68,8 @@
 @media screen and (max-width:400px){
      #education-divider {
         left: -17.5%;
-        top: 11.5%;
-        height: 70%;
+        top: 9.5%;
+        height: 78%;
     }
     #education-info {
         position: relative;
@@ -84,8 +84,8 @@
 @media screen and (min-width: 400px) and (max-width:500px){
     #education-divider {
        left: -18%;
-       top: 11%;
-       height: 70%;
+       top: 9.6%;
+       height: 78%;
    }
    #education-info {
        position: relative;
@@ -99,8 +99,8 @@
 
 @media screen and (min-width: 500px) and (max-width:800px){
     #education-divider {
-       left: -17.9%;
-       top: 13%;
+       left: -18.7%;
+       top: 9.2%;
    }
    #education-info {
        position: relative;
@@ -114,8 +114,8 @@
 
 @media screen and (min-width: 800px) and (max-width:1600px){
     #education-divider {
-       left: -23.5%;
-       top: 12%;
+       left: -23.9%;
+       top: 9%;
    }
    #education-info {
        position: relative;
